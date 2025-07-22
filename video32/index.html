@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: gray;
+            padding: 10px;
+        }
+
+        .box {
+            width: 300px;
+            height: 550px;
+            border: 2px solid #000;
+            border-radius: 7px;
+            background-color: white;
+        }
+
+        .image {
+            padding: 15px;
+        }
+
+        .image img {
+            border-radius: 7px;
+            height: 1o0px;
+        }
+
+        .capsules {
+            display: flex;
+            padding: 0px 35px;
+            margin: 0px 10px;
+
+        }
+
+        .capsules span {
+            display: inline-block;
+            padding: 0px 5px;
+            margin: -11px 3px;
+            border: 2px solid rgb(188, 188, 188);
+            border-radius: 7px;
+            color: rgb(198, 198, 198);
+
+        }
+
+        .content {
+            padding: 10px 10px;
+        }
+
+        .content h2 {
+            padding: 10px 10px;
+        }
+
+        .content p {
+            padding: 0px 10px;
+            color: rgb(88, 88, 88);
+            font-family: poppins, sans-serif;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+
+        .button {
+            text-align: center;
+
+        }
+
+        .button button {
+            padding: 5px 5px;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(117, 213, 213);
+            color: aqua;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        .button button:hover {
+            background-color: rgb(7, 187, 181);
+            color: white;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="image">
+            <img width="270px"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjHFgvG8fChP6bXrplS13dFNdU2Xvk9G2lKQ&s"
+                alt="">
+        </div>
+        <div class="capsules">
+            <span>Earth</span>
+            <span>Green</span>
+        </div>
+        <div class="content">
+            <h2>Soumya</h2>
+            <p>The name "Soumya" generally means peaceful, gentle, mild, pleasant, or beautiful, with origins in
+                Sanskrit. It is often associated with qualities like calmness, auspiciousness, and serenity, drawing
+                connections to the moon (Soma). While traditionally used for both genders, it's more commonly given to
+                girls. </p>
+        </div>
+        <div class="button">
+            <button>Red more</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
